@@ -1,0 +1,27 @@
+{
+  "name": "class3",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@imagekit/nodejs": "^7.12.1",
+    "bcryptjs": "^3.0.3",
+    "chalk": "^6.0.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.1",
+    "multer": "^2.4.0",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.4"
+  }
+}
